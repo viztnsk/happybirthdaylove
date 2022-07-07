@@ -87,6 +87,7 @@
   text-decoration: none;
   color: #D93D04;
   font-weight: normal;
+  z-index: 1;
 }
 .header__image {
   position: absolute;
@@ -157,7 +158,7 @@
 /* общие свойства иллюстраций в тексте */
 .content__image-item {
   width: 100%;
-  height: 100%;
+  height: 374px;
   object-fit: cover;
 }
 /* общие свойства "покрывал" для иллюстраций при бездействии пользователя */
